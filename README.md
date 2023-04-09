@@ -16,12 +16,14 @@ The tech stack uses
 
 ## Installation
 
+0. Create github repo with public read access
 1. Register with OpenAI and acquire an API licence key
 2. Register with app.pinecone.io and acquire a licence key
 3. Create an index in the pinecone vector database to hold the document embeddings, set the dimensions to the value specifies in teh embeddings API (384)
 4. Register with streamlit to host the app
-5. Within the streamlit app registration, reference the github repo name, branch and main file path
+5. Within the streamlit app registration, reference the github repo name, branch and main file path (main.py)
 6. Within the streamlit app settings add the secrets for the OPENAI_API and PINECONE_API keys
+7. Choose url, deploy streamlit app and configure sharing
 
 ## Usage
 
