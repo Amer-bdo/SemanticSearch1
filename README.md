@@ -11,7 +11,7 @@ This project was developed in Python3 using the MS VS Code IDE running on Window
 The tech stack uses
 - The OpenAI GPT 3.5 turbo API
 - Pinecone vector database
-- Open source Embeddings 
+- Open source Embeddings (sentence-transformers,model = 'all-MiniLM-L6-v2' #384 dimensional)
 - Streamlit for the App deployment and hosting
 
 ## Installation
