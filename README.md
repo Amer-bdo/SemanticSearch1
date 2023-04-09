@@ -18,16 +18,16 @@ The tech stack uses
 
 1. Register with OpenAI and acquire an API licence key
 2. Register with app.pinecone.io and acquire a licence key
-2.1 Create an index in the pinecone vector database to hold the document embeddings, set the dimensions to the value specifies in teh embeddings API (384)
-3. Register with streamlit to host the app
-4. Within the streamlit app registration, reference the github repo name, branch and main file path
-5. Within the streamlit app settings add the secrets for the OPENAI_API and PINECONE_API keys
+3. Create an index in the pinecone vector database to hold the document embeddings, set the dimensions to the value specifies in teh embeddings API (384)
+4. Register with streamlit to host the app
+5. Within the streamlit app registration, reference the github repo name, branch and main file path
+6. Within the streamlit app settings add the secrets for the OPENAI_API and PINECONE_API keys
 
 ## Usage
 
 https://amer328-semanticsearch1-main-noxfw4.streamlit.app
 
-Use radio button to either add new document embeddings to the Pinecone database or perform semantic search
+Use radio buttons to either add new document embeddings to the Pinecone database or perform semantic search
 
 
 ## Contributing
